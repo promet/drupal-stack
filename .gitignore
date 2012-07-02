@@ -1,5 +1,4 @@
 Cheffile.lock
 tmp/
 cookbooks/*
-!cookbooks/chefignore
 sites/*
