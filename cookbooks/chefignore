@@ -1,0 +1,8 @@
+*~
+*.sw[a-z]
+*/.svn/*
+.travis.yml
+.gitignore
+*Rakefile
+CHANGELOG.*
+README.*
