@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'users'
+cookbook 'sudo'
+cookbook 'git'
+cookbook 'vim'
+cookbook 'postfix'
+cookbook 'apache2', '>= 1.1.0'
+cookbook 'php', '>=1.0.0'
+cookbook 'percona-install'
+cookbook 'memcached', '>=1.0.0'
+cookbook 'drupal',
+  :git => 'https://github.com/mdxp/drupal-cookbook.git'
+
+# Optional
+cookbook 'varnish'
+cookbook 'solr'
