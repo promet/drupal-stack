@@ -12,6 +12,7 @@ cookbook 'apache2', '>= 1.1.0'
 cookbook 'php', '>=1.0.0'
 cookbook 'percona-install'
 cookbook 'memcached', '>=1.0.0'
+cookbook 'cron'
 cookbook 'drupal',
   :git => 'https://github.com/mdxp/drupal-cookbook.git'
 
